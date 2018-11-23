@@ -69,7 +69,8 @@ public class WeatherBot extends TelegramLongPollingBot {
                     sendMsg(update.getMessage(), "Назад");
                     break;
                 case "О Боте" :
-                    sendMsg(update.getMessage(), "About");
+                    sendMsg(update.getMessage(), "WeatherBot - бот, который показывает текущую погоду в любой точке мира.\n" +
+                            "Автор: Малышкин Олег");
                     break;
                 case "Изменить город" :
                     sendMsg(update.getMessage(), "Введите ваш город");
