@@ -1,1 +1,1 @@
-worker: sh target/bin/weatherSimpleBot
+bot: java -jar build/libs/bot-1.0.jar
