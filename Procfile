@@ -1,1 +1,1 @@
-worker: sh target/bin/telegramWeatherBot
+worker: java -jar target/TelegramWeatherBot-1.0.jar TelegramBotMain
