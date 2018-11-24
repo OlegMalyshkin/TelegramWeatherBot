@@ -78,7 +78,7 @@ public class Weather {
                 append("Влажность ").append(String.format("%.0f", humidity)).append("%").append("\n").
                 append("Облачность ").append(String.format("%.0f",clouds)).append("%").append("\n").
                 append("Скорость ветра ").append(String.format("%.0f",windSpeed)).append(" м/с").append("\n").
-                append("Давдение ").append(String.format("%.0f",pressure)).append(" мм.рт.ст");
+                append("Давление ").append(String.format("%.0f",pressure)).append(" мм.рт.ст");
         return resultWeather.toString();
     }
 }
