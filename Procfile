@@ -1,1 +1,1 @@
-worker: sh target/bin/weatherSimpleBot
+web: java $JAVA_OPTS -cp build/staging:build/staging/* main.TelegramBotMain
