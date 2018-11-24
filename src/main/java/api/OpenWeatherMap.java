@@ -13,7 +13,7 @@ public class OpenWeatherMap {
 
     public static String getWeather(Integer cityId) throws IOException {
         URL url = new URL("http://api.openweathermap.org/data/2.5/weather?id=" + cityId +
-                "&units=metric&lang=ru&appid=d6223bb746bb8d0165bbefd97e7e07cb");
+                "&units=metric&lang=ru&appid=ХХХХХХХХХ");
         Scanner in = new Scanner((InputStream) url.getContent());
         String result = "";
         while(in.hasNext()){

@@ -13,7 +13,7 @@ public class GeoNames {
 
     private static int getCityName(String city) throws Exception {
         int cityId = 0;
-        WebService.setUserName("Oleg96");
+        WebService.setUserName("ХХХХХХ");
         ToponymSearchCriteria searchCriteria = new ToponymSearchCriteria();
         searchCriteria.setQ(city);
         ToponymSearchResult searchResult = WebService.search(searchCriteria);
