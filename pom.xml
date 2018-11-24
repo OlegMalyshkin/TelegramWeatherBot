@@ -4,13 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>TelegramWeatherBot</groupId>
-    <artifactId>Bot</artifactId>
-    <name>weatherSimpleBot</name>
+    <groupId>TelegramBot</groupId>
+    <artifactId>TelegramWeatherBot</artifactId>
+    <name>TelegramWeatherBot</name>
     <version>1.0</version>
 
     <build>
         <plugins>
+            <!--<plugin>-->
+                <!--<artifactId>maven-assembly-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<archive>-->
+                        <!--<manifest>-->
+                            <!--<mainClass>TelegramBotMain</mainClass>-->
+                        <!--</manifest>-->
+                    <!--</archive>-->
+                    <!--<descriptorRefs>-->
+                        <!--<descriptorRef>jar-with-dependencies</descriptorRef>-->
+                    <!--</descriptorRefs>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
             <!--<plugin>-->
                 <!--<groupId>org.apache.maven.plugins</groupId>-->
                 <!--<artifactId>maven-compiler-plugin</artifactId>-->
@@ -28,8 +41,8 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>main.TelegramBotMain</mainClass>
-                            <name>weatherSimpleBot</name>
+                            <mainClass>TelegramBotMain</mainClass>
+                            <name>telegramWeatherBot</name>
                         </program>
                     </programs>
                 </configuration>

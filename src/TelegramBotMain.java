@@ -1,5 +1,3 @@
-package main;
-
 import bot.WeatherBot;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;

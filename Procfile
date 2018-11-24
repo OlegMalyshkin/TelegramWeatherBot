@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp build/staging:build/staging/* main.TelegramBotMain
+worker: java -jar target/Bot-1.0.jar TelegramBotMain
